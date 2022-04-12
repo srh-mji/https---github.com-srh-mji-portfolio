@@ -4,7 +4,6 @@
   <Projects />
   <CV />
   <Contact />
-  <Footer />
 </template>
 
 <script>
@@ -12,7 +11,6 @@ import Header from "./components/Header.vue";
 import Banner from "./components/Banner.vue";
 import Contact from "./components/Contact.vue";
 import CV from "./components/CV.vue";
-import Footer from "./components/Footer.vue";
 import Projects from "./components/Projects.vue";
 
 export default {
@@ -22,7 +20,6 @@ export default {
     Banner,
     Contact,
     CV,
-    Footer,
     Projects
 },
 };

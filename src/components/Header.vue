@@ -28,7 +28,8 @@ header {
   top: 0;
   width: 100%;
   font-family: 'Bebas Neue';
-  height: 80px;
+  height: 100px;
+  background-color: white;
 
 }
 .containerHeader{
@@ -36,7 +37,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-      height: 100px;
+    height: 100px;
 
 }
 h1 {
