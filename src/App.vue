@@ -1,22 +1,30 @@
 <template>
-  <Home />
   <Header/>
   <Banner/>
+  <Projects />
+  <CV />
+  <Contact />
+  <Footer />
 </template>
 
 <script>
-import Home from "./components/Home.vue";
 import Header from "./components/Header.vue";
 import Banner from "./components/Banner.vue";
+import Contact from "./components/Contact.vue";
+import CV from "./components/CV.vue";
+import Footer from "./components/Footer.vue";
+import Projects from "./components/Projects.vue";
 
 export default {
   name: "App",
   components: {
-    Home,    
     Header,
     Banner,
-
-  },
+    Contact,
+    CV,
+    Footer,
+    Projects
+},
 };
 </script>
 

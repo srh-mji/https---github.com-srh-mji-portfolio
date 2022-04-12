@@ -16,8 +16,7 @@ export default {
 <style scoped>
 #bannerHome{
     background-image:url(../assets/fond_portfolio.png) ;
-    position: absolute;
-    top:100px;
+    margin-top:100px;
     width: 100%;
     height: 450px;
     text-align: center;
